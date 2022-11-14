@@ -1,3 +1,5 @@
+require("newrelic");
+
 var express = require('express');
 var router = express.Router();
 let brands = require('../public/jsondata/brands.json')
